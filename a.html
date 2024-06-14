@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="s.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="player">
+        <h2 id="song-title">Bheemla Nayak</h2>
+        <audio id="audio" src="data/Bheemla Nayak.mp3" controls></audio>
+        <div class="controls">
+            <button id="prev-btn"><i class="fa fa-backward"></i></button>
+            <button id="play-pause-btn"><i class="fa fa-play"></i></button>
+            <button id="next-btn"><i class="fa fa-forward"></i></button>
+        </div>
+        <div class="volume-control">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+            <i class="fa fa-volume-up"></i>
+        </div>
+        <div class="extra-controls">
+            <button id="shuffle-btn"><i class="fa fa-random"></i></button>
+            <button id="repeat-btn"><i class="fa fa-repeat"></i></button>
+        </div>
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    
+<div class="music-library">
+        <div class="track" data-src="data/Bheemla Nayak.mp3" data-image="data/Bheemla Nayak.jpg">
+            <img src="data/Bheemla Nayak.jpg" alt="Bheemla Nayak">
+            <div class="track-info">
+                <h3>Bheemla Nayak</h3>
+                <p>Artist: PAWAN KALYAN</p>
+            </div>
+        </div>
+
+        <div class="track" data-src="data/Sooseki.mp3" data-image="data/Pushpa-2-2024-Sooseki-250x250.jpg">
+            <img src="data/Pushpa-2-2024-Sooseki-250x250.jpg" alt="PUSHPA">
+            <div class="track-info">
+                <h3>PUSHPA</h3>
+                <p>Artist: ALLU ARJUN</p>
+            </div>
+        </div>
+
+        <div class="track" data-src="data/Ee Raathale.mp3" data-image="data/radhesyam-Sooseki-250x250.jpg">
+            <img src="data/radhesyam.jpg" alt="radhesyam">
+            <div class="track-info">
+                <h3>RADHESYAM</h3>
+                <p>Artist: PRABHAS</p>
+            </div>
+        </div>
+
+        <div class="track" data-src="data/Oka Praanam-SenSongsMp3.Co.mp3" data-image="data/bb.jpg">
+            <img src="data/bb.jpg" alt="bb">
+            <div class="track-info">
+                <h3>BAHUBALI</h3>
+                <p>Artist: PRABHAS</p>
+            </div>
+        </div>
+
+        <div class="track" data-src="data/Sooreede.mp3" data-image="data/salar.jpg">
+            <img src="data/salar.jpg" alt="salar">
+            <div class="track-info">
+                <h3>SALAR</h3>
+                <p>Artist: PRABHAS</p>
+            </div>
+        </div>
+    
+<div class="track" data-src="data/Naattu Koothu.mp3" data-image="data/natu1.jpg">
+            <img src="data/natu1.jpg" alt="RRR">
+            <div class="track-info">
+                <h3>RRR</h3>
+                <p>Artist:RAM CHARAN</p>
+            </div>
+     
+    </div>
+<div class="track" data-src="data/Odiyamma.mp3" data-image="data/hi">
+            <img src="data/hi.jpg" alt="HI NANNA">
+            <div class="track-info">
+                <h3>HI NANNA</h3>
+                <p>Artist:NANI</p>
+            </div>
+        </div>
+  
+<div class="track" data-src="data/O-Rendu-Prema-Meghaalila(PaglaSongs).mp3" data-image="data/baby.jpg">
+            <img src="data/baby.jpg" alt="BABY">
+            <div class="track-info">
+                <h3>BABY</h3>
+                <p>Artist:ANAND AND VAISHNAVI</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="J.js"></script>
+</body>
+</html>
